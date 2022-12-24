@@ -1,0 +1,12 @@
+[mike@localhost test]$ ls -lR
+.:
+итого 4
+drw-rw-rw-. 2 mike mike 22 окт 16 23:28 dir
+-rw-r-----. 1 root    mike 15 окт 16 23:28 file
+-rw-------. 1 mike mike  0 окт 17 18:59 file1
+-rw-rw-rw-. 1 mike mike  0 окт 17 19:00 file2
+
+./dir:
+ls: невозможно получить доступ к ./dir/new_file: Отказано в доступе
+итого 0
+-????????? ? ? ? ?            ? new_file

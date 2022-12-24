@@ -1,0 +1,7 @@
+id
+whoami
+chown root file
+chmod 600 file
+chmod 640 file
+history
+history > lab2_root_history.txt

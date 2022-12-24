@@ -1,0 +1,47 @@
+mkdir test
+cd test
+touch file
+ls -l
+cdhmod 000 file
+chmod 000 file
+echo test > file
+cat file
+chmod 200 file
+ls -l
+ll
+echo test > file
+cat file
+chmod 240 file
+ll
+cat file
+chmod 640 file
+ls -l
+cat file
+mkdir dir
+touch dir/new_file
+echo dir/new_file > file 2
+cd dir
+ls
+chmod 666 dir
+cd ..
+chmod 666 dir
+cat dir/new_file 
+rm dir/new_file 
+chown root dir
+chgrp root dir
+umask 0022
+touch file1
+ll
+rm file1
+umask 0066
+touch file1
+ll
+umask 0000
+touch file2
+ll
+chmod 600 file
+cat file
+ls -lR
+cd ..
+history
+history > lab2_history.txt
