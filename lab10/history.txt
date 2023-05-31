@@ -1,0 +1,7 @@
+  1  id
+  2  pwd
+  3  touch file1
+  4  echo 'Hello, world!' > file1 
+  5  cat file1 
+  6  chmod 600 file1 
+  7  history > history.txt
