@@ -1,0 +1,14 @@
+    1  auditctl -D
+    2  auditctl -w /home/user1/file1 -p war -k mephi_file1
+    3  auditctl -w /home/mephi/file1 -p war -k mephi_file1
+    4  auditctl -l
+    5  aureport --file -ts today -i --summary
+    6  ausearch -a 13053
+    7  ausearch -a 6888
+    8  aureport
+    9  aureport --auth -ts recent
+   10  aureport --user -ts recent -i
+   11  ausearch --uid 1001 -ts recent
+   12  ausearch --uid 6888 -ts recent
+   13  exit
+   14  history > root.txt
